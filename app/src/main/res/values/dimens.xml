@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingButton">8dp</dimen>
+    <dimen name="paddingStart">8dp</dimen>
+</resources>

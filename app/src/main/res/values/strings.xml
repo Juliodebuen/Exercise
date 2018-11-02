@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Excercise</string>
+    <string name="description">description</string>
+    <string name="add_excercise">add exercise</string>
+    <string name="save_routine">save routine</string>
+    <string name="name">name</string>
+    <string name="no_serie">sets</string>
+    <string name="no_reps">reps</string>
+    <string name="weight">weight</string>
+    <string name="cancelar">cancelar</string>
+    <string name="aceptar">aceptar</string>
+    <string-array name="dias">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+        <item>Dia de la semana</item>
+    </string-array>
+    <string-array name="series">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>Max Rep</item>
+    </string-array>
+    <string-array name="peso">
+        <item>kgs</item>
+        <item>lbs</item>
+    </string-array>
+</resources>

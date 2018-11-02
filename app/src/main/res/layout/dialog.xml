@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="25dp"
+    android:paddingEnd="25dp"
+    android:paddingTop="10dp">
+   <!-- <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"> -->
+        <EditText
+            android:id="@+id/eName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="text"
+            />
+    <!--   </android.support.design.widget.TextInputLayout>
+       <android.support.design.widget.TextInputLayout
+           android:id="@+id/tilSeries"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"> -->
+        <Spinner
+            android:id="@+id/sSeries"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+   <!-- </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilReps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"> -->
+        <EditText
+            android:id="@+id/eReps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/no_reps"
+            android:inputType="number"
+            android:maxLength="3"
+            />
+  <!--  </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"> -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/eWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/weight"
+            android:inputType="numberDecimal"
+            android:maxLength="6"
+            android:layout_weight="0.5"
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/sWeight"
+            android:layout_weight="0.5">
+
+        </Spinner>
+    </LinearLayout>
+  <!--  </android.support.design.widget.TextInputLayout> -->
+
+</LinearLayout>
